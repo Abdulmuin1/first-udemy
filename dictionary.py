@@ -1,0 +1,18 @@
+from cs1graphics import *
+fa=Canvas()
+fa.setHeight(500)
+fa.setBackgroundColor((78,89,247))
+fa.setWidth(500)
+fa.setTitle('yess')
+'''c=Circle(20,Point(100,100))
+fa.add(c)
+r=Rectangle(centerPt=Point(500,50))
+fa.add(r)
+r.setWidth(100)
+r.setHeight(75)
+r.set'''
+a=Point(25,25)
+b=Point(125,275)
+c=Point(250,150)
+p=Polygon(b,a,c)
+fa.add(p)
